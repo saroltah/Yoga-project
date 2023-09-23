@@ -3,3 +3,17 @@
   margin: 0;
   box-sizing: border-box;
 }
+/* header */
+header {
+  background-color: yellow;
+}
+
+/*main*/
+main {
+  background-color: pink;
+}
+
+/*footer*/
+footer {
+  background-color: lightgreen;
+}
