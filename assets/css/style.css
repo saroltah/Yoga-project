@@ -7,12 +7,25 @@
 header {
   background-color: yellow;
 }
-
-/*main*/
-main {
+nav {
   background-color: pink;
 }
-
+/*main*/
+main {
+  background-color: red;
+}
+#home {
+  background-color: lightsalmon;
+}
+#about {
+  background-color: aqua;
+}
+#beneficial {
+  background-color: red;
+}
+#sign-up {
+  background-color: burlywood;
+}
 /*footer*/
 footer {
   background-color: lightgreen;
