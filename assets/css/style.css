@@ -6,9 +6,21 @@
 /* header */
 header {
   background-color: yellow;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
 }
 /*navigation*/
-
+nav {
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  width: 100%;
+  display: none;
+}
+#nav-toggle:checked ~ nav {
+  display: block;
+}
 /*main*/
 main {
   background-color: red;
