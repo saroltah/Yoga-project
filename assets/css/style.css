@@ -1,6 +1,8 @@
 :root {
   --main-font: "Gloria Hallelujah", cursive;
   --text-font: "Noto Sans Gujarati", sans-serif;
+  --light-blue: #daf1f3;
+  --brown: #a67b73;
 }
 
 * {
@@ -13,17 +15,32 @@ body {
 }
 /* header */
 header {
-  background-color: yellow;
   position: fixed;
+  top: 0px;
   z-index: 99;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  box-shadow: 3px 10px 24px rgba(0, 0, 0, 0.3);
+  background-color: #daf1f3;
+  border-bottom: 2px solid #a67b73;
+}
+#logo {
+  font-family: var(--main-font);
 }
 /*navigation*/
 nav {
   position: absolute;
   top: 100%;
-  left: 0%;
+  right: 0%;
   width: 100%;
+  display: none;
+  background-color: #daf1f3;
+  border-bottom: 2px solid #a67b73;
+}
+
+#nav-toggle {
   display: none;
 }
 #nav-toggle:checked ~ nav {
@@ -32,9 +49,12 @@ nav {
 /*main*/
 main {
   background-color: red;
+  margin-top: 63px;
 }
 #home {
-  background-color: lightsalmon;
+  background: url(../images/pexels-lucas-pezeta-2529375.jpg) no-repeat center
+    center / cover;
+  height: 30em;
 }
 #about {
   background-color: aqua;
