@@ -1,7 +1,15 @@
+:root {
+  --main-font: "Gloria Hallelujah", cursive;
+  --text-font: "Noto Sans Gujarati", sans-serif;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+body {
+  font-family: var(--text-font);
 }
 /* header */
 header {
