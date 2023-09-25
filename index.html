@@ -69,13 +69,18 @@
       <section id="signup">
         <h3>Join us today!</h3>
         <p>We send you information about log-in details.</p>
-        <form action="">
+        <form
+          action="https://formdump.codeinstitute.net"
+          method="post"
+          id="signup-form"
+        >
           <label for="first-name">First name:</label>
-          <input type="text" id="first-name" />
+          <input type="text" id="first-name" name="first-name" required />
           <label for="last-name">Last name:</label>
-          <input type="text" id="last-name" />
+          <input type="text" id="last-name" name="last-name" required />
           <label for="email">Email Address:</label>
-          <input type="email" id="email" />
+          <input type="email" id="email" name="email" required />
+          <input type="submit" value="Sign up!" />
         </form>
       </section>
     </main>
@@ -112,7 +117,7 @@
             <i class="fa-brands fa-twitter"></i
           ></a>
         </div>
-        <div class="social-icon email-icon">
+        <div class="social-icon">
           <a
             href="mailto:info@relief.com"
             aria-label="write email to us (opens in your mailing application)"
