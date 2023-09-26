@@ -3,6 +3,7 @@
   --text-font: "Noto Sans Gujarati", sans-serif;
   --light-blue: #bdd6df;
   --brown: #99774a;
+  --almost-white: #d1d3d6;
 }
 
 * {
@@ -12,7 +13,7 @@
 }
 body {
   font-family: var(--text-font);
-  background-color: black;
+  background-color: var(--light-blue);
 }
 /* header */
 header {
@@ -68,6 +69,28 @@ main {
     center center / cover;
   height: 30em;
 }
+#home > div {
+  z-index: 70;
+  text-align: center;
+  width: fit-content;
+  padding: 50px 15px;
+  position: relative;
+  top: 20%;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.6);
+  color: var(--almost-white);
+  border: 2px solid var(--brown);
+  border-radius: 20%;
+}
+#home > div h1 {
+  color: #e9dcc0;
+  font-size: 24px;
+  font-family: var(--main-font);
+}
+#home > div h2 {
+  font-size: 21px;
+  margin-top: 10px;
+}
 #about {
   background-color: aqua;
 }
@@ -84,6 +107,15 @@ footer {
 @media screen and (min-width: 768px) {
   main {
     margin-top: 89px;
+  }
+  #home > div {
+    letter-spacing: 2px;
+  }
+  #home > div h1 {
+    font-size: 34px;
+  }
+  #home > div h2 {
+    font-size: 28px;
   }
 }
 /*media query for laptops=< */
