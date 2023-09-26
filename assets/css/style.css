@@ -22,10 +22,14 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 0.5rem 1rem;
-  background-color: #daf1f3;
+  background-color: var(--light-blue);
 }
 #logo {
   font-family: var(--main-font);
+}
+#logo > i {
+  color: var(--brown);
+  font-style: italic;
 }
 /*navigation*/
 nav {
@@ -33,8 +37,8 @@ nav {
   top: 100%;
   right: 0%;
   width: 100%;
-  background-color: #daf1f3;
-  border-bottom: 2px solid #a67b73;
+  background-color: var(--light-blue);
+  border-bottom: 2px solid var(--brown);
 }
 
 nav a {
