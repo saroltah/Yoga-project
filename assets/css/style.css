@@ -21,10 +21,8 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
-  box-shadow: 3px 10px 24px rgba(0, 0, 0, 0.3);
+  padding: 0.5rem 1rem;
   background-color: #daf1f3;
-  border-bottom: 2px solid #a67b73;
 }
 #logo {
   font-family: var(--main-font);
@@ -35,16 +33,23 @@ nav {
   top: 100%;
   right: 0%;
   width: 100%;
-  display: none;
   background-color: #daf1f3;
   border-bottom: 2px solid #a67b73;
 }
 
-#nav-toggle {
-  display: none;
+nav a {
+  text-decoration: none;
+  color: black;
 }
-#nav-toggle:checked ~ nav {
-  display: block;
+
+nav a:hover {
+  text-decoration: underline;
+}
+#menu {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding: 2px 0px;
 }
 /*main*/
 main {
@@ -52,8 +57,8 @@ main {
   margin-top: 63px;
 }
 #home {
-  background: url(../images/pexels-lucas-pezeta-2529375.jpg) no-repeat center
-    center / cover;
+  background: url(../images/akemy-mory-LaKVSiT4rR8-unsplash.jpg) no-repeat
+    center center / cover;
   height: 30em;
 }
 #about {
