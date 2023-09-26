@@ -1,8 +1,8 @@
 :root {
   --main-font: "Gloria Hallelujah", cursive;
   --text-font: "Noto Sans Gujarati", sans-serif;
-  --light-blue: #daf1f3;
-  --brown: #a67b73;
+  --light-blue: #bdd6df;
+  --brown: #99774a;
 }
 
 * {
@@ -47,8 +47,11 @@ nav a {
 }
 
 nav a:hover {
-  text-decoration: underline;
+  color: var(--brown);
+  text-decoration: none;
+  font-style: bold;
 }
+
 #menu {
   display: flex;
   justify-content: space-evenly;
@@ -77,4 +80,21 @@ main {
 /*footer*/
 footer {
   background-color: lightgreen;
+}
+/*media query for tablets=<  */
+@media screen and (min-width: 768px) {
+}
+/*media query for laptops=< */
+@media screen and (min-width: 992px) {
+  header {
+    border-bottom: 2px solid var(--brown);
+  }
+  nav {
+    position: static;
+    padding: 0.5rem 1rem;
+    border-bottom: none;
+  }
+  #logo {
+    flex-shrink: 0;
+  }
 }
