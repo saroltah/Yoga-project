@@ -12,6 +12,7 @@
 }
 body {
   font-family: var(--text-font);
+  background-color: black;
 }
 /* header */
 header {
@@ -60,8 +61,7 @@ nav a:hover {
 }
 /*main*/
 main {
-  background-color: red;
-  margin-top: 63px;
+  margin-top: 64px;
 }
 #home {
   background: url(../images/akemy-mory-LaKVSiT4rR8-unsplash.jpg) no-repeat
@@ -72,7 +72,6 @@ main {
   background-color: aqua;
 }
 #beneficial {
-  background-color: red;
 }
 #sign-up {
   background-color: burlywood;
@@ -83,6 +82,9 @@ footer {
 }
 /*media query for tablets=<  */
 @media screen and (min-width: 768px) {
+  main {
+    margin-top: 89px;
+  }
 }
 /*media query for laptops=< */
 @media screen and (min-width: 992px) {
@@ -96,5 +98,19 @@ footer {
   }
   #logo {
     flex-shrink: 0;
+  }
+  main {
+    margin-top: 64px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #home {
+    background-position: 0% 30%;
+    height: 34em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #home {
+    height: 37em;
   }
 }
