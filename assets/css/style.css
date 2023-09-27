@@ -4,6 +4,8 @@
   --light-blue: #bdd6df;
   --brown: #99774a;
   --almost-white: #d1d3d6;
+  --light-yellow: #e9dcc0;
+  --border: 2px solid #99774a;
 }
 
 * {
@@ -13,7 +15,6 @@
 }
 body {
   font-family: var(--text-font);
-  background-color: var(--light-blue);
 }
 /* header */
 header {
@@ -41,7 +42,7 @@ nav {
   right: 0%;
   width: 100%;
   background-color: var(--light-blue);
-  border-bottom: 2px solid var(--brown);
+  border-bottom: var(--border);
 }
 
 nav a {
@@ -66,9 +67,11 @@ main {
   margin-top: 64px;
 }
 #home {
-  background: url(../images/akemy-mory-LaKVSiT4rR8-unsplash.jpg) no-repeat
-    center center / cover;
+  background: var(--light-blue)
+    url(../images/akemy-mory-LaKVSiT4rR8-unsplash.jpg) no-repeat center center /
+    cover;
   height: 30em;
+  border-bottom: var(--border);
 }
 #home > div {
   z-index: 70;
@@ -80,11 +83,11 @@ main {
   margin: 0 auto;
   background: rgba(0, 0, 0, 0.6);
   color: var(--almost-white);
-  border: 2px solid var(--brown);
+  border: var(--border);
   border-radius: 20%;
 }
 #home > div h1 {
-  color: #e9dcc0;
+  color: var(--light-yellow);
   font-size: 24px;
   font-family: var(--main-font);
 }
@@ -93,8 +96,27 @@ main {
   margin-top: 10px;
 }
 #about {
-  background-color: aqua;
+  background-color: #ffffff;
 }
+.about-paragraph {
+  margin: 3rem auto;
+  border: var(--border);
+  width: 80%;
+  border-radius: 20%;
+  line-height: 30px;
+  text-align: center;
+  padding: 1.5rem;
+  box-shadow: 0px 0px 33px 23px rgba(189, 214, 223, 1);
+}
+.about-paragraph > h3 {
+  margin-bottom: 1rem;
+}
+.about-paragraph > ul {
+  list-style-type: circle;
+  margin-left: 1rem;
+  text-align: start;
+}
+
 #beneficial {
 }
 #sign-up {
