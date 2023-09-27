@@ -28,6 +28,7 @@ header {
 }
 #logo {
   font-family: var(--main-font);
+  text-transform: uppercase;
 }
 #logo > i {
   color: var(--brown);
