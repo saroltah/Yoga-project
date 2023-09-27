@@ -97,6 +97,7 @@ main {
 }
 #about {
   background-color: #ffffff;
+  padding-top: 64px;
 }
 .about-paragraph {
   margin: 3rem auto;
