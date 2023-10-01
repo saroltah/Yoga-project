@@ -121,7 +121,13 @@ main {
   text-align: start;
 }
 #about-image {
-  display: none;
+  padding: 0px;
+  display: block;
+  text-align: center;
+  max-width: 100%;
+  margin: 3rem auto;
+  border-bottom: var(--border);
+  border-top: var(--border);
 }
 #sign-up {
   background-color: burlywood;
@@ -176,15 +182,6 @@ footer {
   }
   main {
     margin-top: 64px;
-  }
-
-  #about-image {
-    display: block;
-    max-height: 393px;
-    margin: 10px;
-    border: var(--border);
-    border-radius: 20%;
-    box-shadow: 0px 0px 33px 23px rgba(189, 214, 223, 1);
   }
 }
 @media screen and (min-width: 1024px) {
