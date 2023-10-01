@@ -32,7 +32,8 @@ header {
   text-transform: uppercase;
 }
 #logo > i,
-#about i {
+#about i,
+#sign-up i {
   color: var(--brown);
   font-style: italic;
 }
@@ -129,8 +130,51 @@ main {
   border-bottom: var(--border);
   border-top: var(--border);
 }
+/*sign up form*/
 #sign-up {
-  background-color: burlywood;
+  padding: 69.33px 0px;
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  box-shadow: 0px 0px 33px 23px rgba(153, 119, 74, 0.3);
+  border-radius: 20%;
+}
+#sign-up > h3 {
+  font-style: italic;
+}
+#sign-up > p {
+  margin: 20px 0px;
+  font-style: italic;
+}
+#sign-up label,
+#sign-up input {
+  margin: 10px;
+}
+
+#sign-up label {
+  font-weight: bold;
+}
+#sign-up input {
+  border: var(--border);
+}
+#sign-up input:hover {
+  border: 2px solid #bdd6df;
+}
+#sign-up input[type="submit"] {
+  margin-top: 0px;
+  box-shadow: 0px 0px 33px 23px rgba(153, 119, 74, 0.3);
+  border-radius: 20%;
+  padding: 20px;
+  font-size: 18px;
+  font-family: var(--main-font);
+}
+#sign-up input[type="submit"]:hover {
+  box-shadow: 0px 0px 33px 23px rgba(189, 214, 223, 1);
+  cursor: pointer;
+}
+#sign-up i {
+  font-size: 18px;
+  padding: 20px;
 }
 /*footer*/
 footer {

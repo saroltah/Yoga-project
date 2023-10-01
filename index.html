@@ -37,7 +37,9 @@
             >
           </li>
           <li>
-            <a href="#signup" aria-label="go to the sign up section on the page"
+            <a
+              href="#sign-up"
+              aria-label="go to the sign up section on the page"
               >Sign up</a
             >
           </li>
@@ -103,7 +105,8 @@
           />
         </div>
       </section>
-      <section id="signup">
+      <section id="sign-up">
+        <i class="fa-solid fa-spa"></i>
         <h3>Join us today!</h3>
         <p>We send you information about log-in details.</p>
         <form
@@ -111,18 +114,29 @@
           method="post"
           id="signup-form"
         >
-          <label for="first-name">First name:</label>
-          <input type="text" id="first-name" name="first-name" required />
-          <label for="last-name">Last name:</label>
-          <input type="text" id="last-name" name="last-name" required />
-          <label for="email">Email Address:</label>
-          <input type="email" id="email" name="email" required />
+          <div id="user-details">
+            <label for="first-name">First name:</label>
+            <br />
+            <input type="text" id="first-name" name="first-name" required />
+            <br />
+            <label for="last-name">Last name:</label>
+            <br />
+            <input type="text" id="last-name" name="last-name" required />
+            <br />
+            <label for="email">Email:</label>
+            <br />
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <br />
+
           <input type="submit" value="Sign up!" />
         </form>
+        <i class="fa-solid fa-spa"></i>
       </section>
     </main>
     <!--footer-->
-    <footer>
+    <footer id="contact">
       <h3>Would you like to know more?</h3>
       <p>Find us on social media or write an email to info@relief.com!</p>
       <div id="#social-media-icons">
