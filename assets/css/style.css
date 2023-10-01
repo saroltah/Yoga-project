@@ -120,7 +120,9 @@ main {
   margin-left: 1rem;
   text-align: start;
 }
-
+#about-image {
+  display: none;
+}
 #sign-up {
   background-color: burlywood;
 }
@@ -128,6 +130,7 @@ main {
 footer {
   background-color: lightgreen;
 }
+
 /*media query for tablets=<  */
 @media screen and (min-width: 768px) {
   main {
@@ -148,6 +151,14 @@ footer {
   #benefical {
     display: flex;
     justify-content: space-evenly;
+    flex-shrink: 1;
+  }
+}
+
+/*media query bigger tablets=< */
+@media screen and (min-width: 866px) {
+  .about-paragraph {
+    font-size: 18px;
   }
 }
 /*media query for laptops=< */
@@ -165,6 +176,15 @@ footer {
   }
   main {
     margin-top: 64px;
+  }
+
+  #about-image {
+    display: block;
+    max-height: 393px;
+    margin: 10px;
+    border: var(--border);
+    border-radius: 20%;
+    box-shadow: 0px 0px 33px 23px rgba(189, 214, 223, 1);
   }
 }
 @media screen and (min-width: 1024px) {
