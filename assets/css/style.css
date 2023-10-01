@@ -159,6 +159,10 @@ footer {
     justify-content: space-evenly;
     flex-shrink: 1;
   }
+  #when-should-apply,
+  #benefits {
+    box-shadow: none;
+  }
 }
 
 /*media query bigger tablets=< */
@@ -182,6 +186,15 @@ footer {
   }
   main {
     margin-top: 64px;
+  }
+  #about-image {
+    max-width: 80%;
+    border: var(--border);
+    border-radius: 20%;
+    box-shadow: 0px 0px 33px 23px rgba(189, 214, 223, 1);
+  }
+  .about-paragraph {
+    border: 3px solid #99774a;
   }
 }
 @media screen and (min-width: 1024px) {
