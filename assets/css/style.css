@@ -288,6 +288,22 @@ footer span {
 
 /*media query for laptops=< */
 @media screen and (min-width: 992px) {
+  body {
+    font-size: 21px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3,
+  input[type="submit"],
+  #social-media-icons,
+  nav a,
+  #sign-up i {
+    font-size: 24px;
+  }
   header {
     border-bottom: 2px solid var(--brown);
   }
@@ -302,6 +318,8 @@ footer span {
   }
   #logo {
     flex-shrink: 0;
+    font-size: 32px;
+    z-index: 99;
   }
   main {
     margin-top: 59px;
