@@ -247,7 +247,7 @@ footer span {
     box-shadow: none;
   }
   #sign-up {
-    margin-top: 96px;
+    margin-top: 75px;
   }
   #sign-up input[type="text"],
   #sign-up input[type="email"] {
@@ -289,10 +289,10 @@ footer span {
     flex-shrink: 0;
   }
   main {
-    margin-top: 64px;
+    margin-top: 59px;
   }
   #about-image {
-    max-width: 80%;
+    max-width: 60%;
     border: var(--border);
     border-radius: 20%;
     box-shadow: 0px 0px 33px 23px rgba(189, 214, 223, 1);
