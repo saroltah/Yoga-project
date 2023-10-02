@@ -56,7 +56,7 @@ nav a {
 nav a:hover {
   color: var(--brown);
   text-decoration: none;
-  font-style: bold;
+  font-weight: bold;
 }
 
 #menu {
@@ -71,8 +71,8 @@ main {
 }
 #home {
   background: var(--light-blue)
-    url(../images/akemy-mory-LaKVSiT4rR8-unsplash.jpg) no-repeat center center /
-    cover;
+    url(../images/akemy-mory-LaKVSiT4rR8-unsplash-min.webp) no-repeat center
+    center / cover;
   height: 30em;
   border-bottom: var(--border);
 }
@@ -218,6 +218,13 @@ footer span {
   main {
     margin-top: 89px;
   }
+  #home {
+    background: var(--light-blue)
+      url(../images/akemy-mory-LaKVSiT4rR8-unsplash_1.webp) no-repeat center
+      center / cover;
+    height: 30em;
+    border-bottom: var(--border);
+  }
   #home > div {
     letter-spacing: 2px;
   }
@@ -273,6 +280,10 @@ footer span {
     position: static;
     padding: 0.5rem 1rem;
     border-bottom: none;
+    padding-top: 15px;
+  }
+  #menu {
+    padding: 0;
   }
   #logo {
     flex-shrink: 0;
