@@ -13,9 +13,22 @@
   margin: 0;
   box-sizing: border-box;
 }
+/*general*/
 body {
   font-family: var(--text-font);
+  font-size: 16px;
 }
+h1 {
+  font-size: 24px;
+}
+h2 {
+  font-size: 21px;
+}
+h3,
+input[type="submit"] {
+  font-size: 18px;
+}
+
 /* header */
 header {
   position: fixed;
@@ -92,11 +105,9 @@ main {
 }
 #home > div h1 {
   color: var(--light-yellow);
-  font-size: 24px;
   font-family: var(--main-font);
 }
 #home > div h2 {
-  font-size: 21px;
   margin-top: 10px;
 }
 #about {
@@ -167,7 +178,6 @@ main {
   box-shadow: 0px 0px 33px 23px rgba(153, 119, 74, 0.3);
   border-radius: 20%;
   padding: 20px;
-  font-size: 18px;
   font-family: var(--main-font);
 }
 #sign-up input[type="submit"]:hover {
@@ -215,6 +225,23 @@ footer span {
 }
 /*media query for tablets=<  */
 @media screen and (min-width: 768px) {
+  body {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  h3,
+  input[type="submit"],
+  #social-media-icons,
+  nav a,
+  #sign-up i {
+    font-size: 23px;
+  }
+
   main {
     margin-top: 89px;
   }
@@ -227,12 +254,6 @@ footer span {
   }
   #home > div {
     letter-spacing: 2px;
-  }
-  #home > div h1 {
-    font-size: 34px;
-  }
-  #home > div h2 {
-    font-size: 28px;
   }
   .about-paragraph {
     width: auto;
@@ -265,12 +286,6 @@ footer span {
   }
 }
 
-/*media query bigger tablets=< */
-@media screen and (min-width: 866px) {
-  .about-paragraph {
-    font-size: 18px;
-  }
-}
 /*media query for laptops=< */
 @media screen and (min-width: 992px) {
   header {
@@ -280,7 +295,7 @@ footer span {
     position: static;
     padding: 0.5rem 1rem;
     border-bottom: none;
-    padding-top: 15px;
+    padding-top: 20px;
   }
   #menu {
     padding: 0;
