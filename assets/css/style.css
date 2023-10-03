@@ -137,7 +137,9 @@ main {
   padding: 0px;
   display: block;
   text-align: center;
-  max-width: 100%;
+  width: 100%;
+  max-width: 767px;
+  height: auto;
   margin: 89px auto;
   border-bottom: var(--border);
   border-top: var(--border);
@@ -257,13 +259,7 @@ footer span {
   main {
     margin-top: 84px;
   }
-  #home {
-    background: var(--light-blue)
-      url(../images/akemy-mory-LaKVSiT4rR8-unsplash_1.webp) no-repeat center
-      center / cover;
-    height: 30em;
-    border-bottom: var(--border);
-  }
+
   #home > div {
     letter-spacing: 2px;
   }
