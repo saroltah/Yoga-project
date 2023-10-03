@@ -297,56 +297,13 @@ footer span {
     padding-right: 15px;
     border: none;
   }
-}
-
-/*media query for laptops=< */
-@media screen and (min-width: 992px) {
-  body {
-    font-size: 21px;
-  }
-  h1 {
-    font-size: 35px;
-  }
-  h2 {
-    font-size: 30px;
-  }
-  h3,
-  input[type="submit"],
-  #social-media-icons,
-  nav a,
-  #sign-up i {
-    font-size: 24px;
-  }
-  header {
-    border-bottom: 2px solid var(--brown);
-  }
-  nav {
-    position: static;
-    padding: 0.5rem 1rem;
-    border-bottom: none;
-    padding-top: 20px;
-  }
-  #menu {
-    padding: 0;
-  }
-  #logo {
-    flex-shrink: 0;
-    font-size: 32px;
-    z-index: 99;
-  }
-  main {
-    margin-top: 59px;
-  }
-  .about-paragraph {
-    border: 3px solid #99774a;
-  }
   .only-big-screen {
     display: block;
     flex-shrink: 0;
   }
   #about-image-background {
     display: flex;
-    max-width: 90%;
+    max-width: 98%;
     height: 900px;
     position: relative;
     padding: 0px;
@@ -371,6 +328,43 @@ footer span {
     position: absolute;
     right: 0;
     bottom: 0px;
+  }
+}
+
+/*media query for laptops=< */
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+
+  header {
+    border-bottom: 2px solid var(--brown);
+  }
+  nav {
+    position: static;
+    padding: 0.5rem 1rem;
+    border-bottom: none;
+    padding-top: 20px;
+  }
+  #menu {
+    padding: 0;
+  }
+  #logo {
+    flex-shrink: 0;
+    font-size: 32px;
+    z-index: 99;
+  }
+  main {
+    margin-top: 59px;
+  }
+  .about-paragraph {
+    border: 3px solid #99774a;
+  }
+  #about-image-background {
+    max-width: 90%;
   }
   #sign-up {
     width: 60%;
