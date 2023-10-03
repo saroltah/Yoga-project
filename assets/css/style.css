@@ -142,6 +142,18 @@ main {
   border-bottom: var(--border);
   border-top: var(--border);
 }
+.only-big-screen {
+  display: none;
+  height: 636px;
+  width: 600px;
+  border-radius: 20%;
+}
+#brown-rectangle {
+  background-color: var(--brown);
+}
+#blue-rectangle {
+  background-color: var(--light-blue);
+}
 /*sign up form*/
 #sign-up {
   padding: 69.33px 0px;
@@ -243,7 +255,7 @@ footer span {
   }
 
   main {
-    margin-top: 89px;
+    margin-top: 84px;
   }
   #home {
     background: var(--light-blue)
@@ -258,7 +270,7 @@ footer span {
   .about-paragraph {
     width: auto;
   }
-  #benefical {
+  #beneficial {
     display: flex;
     justify-content: space-evenly;
     flex-shrink: 1;
@@ -269,6 +281,7 @@ footer span {
   }
   #sign-up {
     margin-top: 75px;
+    width: 70%;
   }
   #sign-up input[type="text"],
   #sign-up input[type="email"] {
@@ -324,14 +337,43 @@ footer span {
   main {
     margin-top: 59px;
   }
-  #about-image {
-    max-width: 60%;
-    border: var(--border);
-    border-radius: 20%;
-    box-shadow: 0px 0px 33px 23px rgba(189, 214, 223, 1);
-  }
   .about-paragraph {
     border: 3px solid #99774a;
+  }
+  .only-big-screen {
+    display: block;
+    flex-shrink: 0;
+  }
+  #about-image-background {
+    display: flex;
+    max-width: 90%;
+    height: 900px;
+    position: relative;
+    padding: 0px;
+    margin: 89px auto;
+    justify-content: center;
+  }
+  #blue-rectangle {
+    z-index: 10;
+    position: absolute;
+    left: 0;
+    top: 0px;
+  }
+  #about-image {
+    max-width: 636px;
+    border: var(--border);
+    border-radius: 20%;
+    z-index: 60;
+    position: relative;
+    align-self: center;
+  }
+  #brown-rectangle {
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+  }
+  #sign-up {
+    width: 60%;
   }
 }
 @media screen and (min-width: 1024px) {
