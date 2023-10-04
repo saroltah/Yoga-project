@@ -1,6 +1,6 @@
 # Relief Yoga
 
-### Idea
+## Idea
 
 An online library of meditation and yoga classes which are focusing on stress and anxiety relief.
 
@@ -18,7 +18,7 @@ This website presenting a starting business, tells what the library would be abo
 
 How they can get access to the information: short paragraphs, only relevant information, with a menu that helps them to find what they are looking for.
 
-### Build-up
+## Build-up
 
 I. Logo & menu - on the top - for easy navigation
 
@@ -34,9 +34,9 @@ VI. Contact details - for the users who have questions and social media links to
 
 Shortly: The user sees what the website is about, then think about if they need it, see adventages why this website is a good option over other platforms, get the option to sign up and try it out, and the also the option to read more or get in contact.
 
-### My work Process
+## My work Process
 
-! First part - HTML !
+### First part - HTML
 
 - Adding basic files and folders
 - Adding meta tags - keywords, describtion and css link - make the background red to test
@@ -47,7 +47,7 @@ Shortly: The user sees what the website is about, then think about if they need 
 - Wiritng the HTML document with background color, to see if the structure is fine and also it is easier to visualize the design how big space they take
 - Design layout on wireframe
 
-The bigger the screen the more columns can have
+  The bigger the screen the more columns can have
 
 - Completing html text with links, form details, sign up button, icons and classes to be able to apply the layout & design
 
@@ -55,24 +55,84 @@ The bigger the screen the more columns can have
 
 - Finding background photos, colorpalette and fontfamily to that fits to the project
 
-! Time for CSS !
+### Time for CSS
 
-change the layout of menu - checkbox toggle is not working 15. make menu responsive 16. wpseudo class - click on something and changes color. Logo is uppercase so it standing out
-17.background photo responsive & add aria label to that. Added color under image in case it doesn't load.
-17.position h1&h2 - check in devtools. 18. styling about section 19. styling signup section &make it responsive
-20.styling footer
+I am working form up to down styling the sections one by one, making them also responsive:
 
-! Optimization, last touches !
+- Changing the layout of menu (checkbox toggle is not working) and make menu responsive
+- Adding pseudo classes
+- Making background photo responsive & adding aria label to that. Adding color under the image in case it doesn't load.
+- Positioning h1&h2 - check in devtools.
+- Styling about section
+- Styling signup section & make it responsive
+- Styling footer
 
-### Workflow
+### Optimization, last touches
 
-- Working with live server - to see instant the changes.
+- Changing images to smaller format for faster loading
+- CSS validator - mistake: font sytle: bold - corrected to font weight.
+- HTML validator - a meta element was missing closing tag.
+- Lighthouse check - laptop 100%, mobile 75 - still slow
+- Optimizing font-size as general CSS rule
+
+  Concidering font size: if user uses the menu instead of scrolling, they can see the section in one piece. (most important for sign up section)
+
+## Workflow
+
+- Working with live server - to see immediately the changes.
 - Using prettier for easier more smooth coding process and to note mistakes easier.
-  Testing continuosly and paying attention of "promlems" on the terminal.
-- Using keybord shortcuts and ÍEmmet for the faster process.
+- Testing continuosly and paying attention of _promlems_ on the terminal.
+- Using keybord shortcuts and Emmet for the faster process.
+- Continuosly checking and trying out things in developer tools.
 
-### Bugs
+## Bugs and solutions
 
-### Testing
+1.  Checkbox toggle was not working in the one-page website, because the menu only goes back to hamburger icon when the page is refreshed.
 
-### Credits
+    Removed toggling, made menu smaller on the top of the page. I put the logo and the menu links in 2 lines, so there is space between them, they are readable and easy to click/tap on.
+
+2.  Header covered the sections when they were opened from menu links.
+
+    Added padding top - at least size as the header
+
+3.  There was a LOCK file in the repository so couldn't commit.
+
+    Deleted it manually.
+
+4.  Menu was covering logo.
+
+    Added z-index
+
+5.  Prettier ruins the consistence of HTML format - changed it in the end.
+
+## Testing
+
+## Credits
+
+Programs:
+
+- VS Code
+- Github
+
+Planning:
+
+- Balsamiq wireframes
+
+Font family:
+
+- Google fonts
+
+Images and icons:
+
+- Font awesome
+- Unspalsh
+- Pexels
+- https://compressjpeg.com/
+- https://tinypng.com/
+- https://convertio.co/jpg-webp/
+
+Color palette:
+
+- Chrome color picker
+
+Special thanks to Code Institue and my mentor Ronan Mc
