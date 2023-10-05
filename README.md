@@ -1,4 +1,4 @@
-# Relief Yoga
+# Relief Yoga & Meditation
 
 ## Idea
 
@@ -55,7 +55,7 @@ Shortly: The user sees what the website is about, then think about if they need 
 
 - Finding background photos, colorpalette and fontfamily to that fits to the project
 
-### Time for CSS
+### Second part: CSS
 
 I am working form up to down styling the sections one by one, making them also responsive:
 
@@ -107,6 +107,20 @@ I am working form up to down styling the sections one by one, making them also r
 
 ## Testing
 
+Tried on mobile, tablet and laptop screen view.
+
+| What to do                                                                 | How to do                                                  | Expected outcome                                                                          | Outcome                                                                                   |
+| -------------------------------------------------------------------------- | ---------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| Header, menu and logo always visible                                       | Scrolling the page, clicking on menu links                 | Header, menu and logo always visible                                                      | Header, menu and logo always visible                                                      |
+| Home link leads back to Home section                                       | Click on Home link                                         | Goes back to homepage, where h1, h2 is visible                                            | Goes back to homepage, where h1, h2 is visible                                            |
+| About leads to About section                                               | Click on About link                                        | Goes to About section, where the Who are we? paragaraph is visible                        | Goes to About section, where the Who are we? paragaraph is visible                        |
+| Sign up leads to Sign-up section                                           | Click on Sign up link                                      | Goes to Sign-up section, where the sign up form is visible, with all questions and button | Goes to Sign-up section, where the sign up form is visible, with all questions and button |
+| Contact leads to contact section                                           | Click on Contact link                                      | Goes down to the button of the page so the whole Contact section is visible.              | Goes down to the button of the page so the whole Contact section is visible.              |
+| The menu links change color when clicking on them                          | Click on the links one by one                              | They all change color (from black to brown until i click somewhere else)                  | They all change color (from black to brown until i click somewhere else)                  |
+| The text and email type of input fields change color when clicking on them | Pointing the curzor on them, then click on them one by one | They all change color - from brown to light blue when pointing, then black when clicking. | They all change color - from brown to light blue when pointing, then black when clicking. |
+| The submit input changes color when pointing on it                         | Pointing the curzor on it, then click on it                | It gets a light blue boxshadow instead of brown, and the border disappeares.              | It gets a light blue boxshadow instead of brown, and the border disappeares.              |
+| The text input fields are required                                         | Trying to submit them empty one by one                     | It does'nt let submit, it writes out note that the you have to fill the                   | It gets a light blue boxshadow instead of brown, and the border disappeares.              |
+
 ## Credits
 
 Programs:
@@ -135,4 +149,4 @@ Color palette:
 
 - Chrome color picker
 
-Special thanks to Code Institue and my mentor Ronan Mc
+Special thanks to Code Institue and my mentor Ronan McClelland for reviewing, helping and answering to all my questions.
