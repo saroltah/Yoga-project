@@ -1,10 +1,10 @@
 :root {
   --main-font: "Gloria Hallelujah", cursive;
   --text-font: "Noto Sans Gujarati", sans-serif;
-  --light-blue: #bdd6df;
+  ---blue: #bdd6df;
   --brown: #99774a;
   --almost-white: #d1d3d6;
-  --light-yellow: #e9dcc0;
+  ---yellow: #e9dcc0;
   --border: 2px solid #99774a;
 }
 
@@ -38,7 +38,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 0.5rem 1rem;
-  background-color: var(--light-blue);
+  background-color: var(---blue);
 }
 #logo {
   font-family: var(--main-font);
@@ -57,7 +57,7 @@ nav {
   top: 100%;
   right: 0%;
   width: 100%;
-  background-color: var(--light-blue);
+  background-color: var(---blue);
   border-bottom: var(--border);
 }
 
@@ -83,7 +83,7 @@ main {
   margin-top: 64px;
 }
 #home {
-  background: var(--light-blue)
+  background: var(---blue)
     url(../images/akemy-mory-LaKVSiT4rR8-unsplash-min.webp) no-repeat center
     center / cover;
   height: 30em;
@@ -104,7 +104,7 @@ main {
   box-shadow: 0px 0px 20px 3px rgba(189, 214, 223, 1);
 }
 #home > div h1 {
-  color: var(--light-yellow);
+  color: var(---yellow);
   font-family: var(--main-font);
 }
 #home > div h2 {
@@ -154,7 +154,7 @@ main {
   background-color: var(--brown);
 }
 #blue-rectangle {
-  background-color: var(--light-blue);
+  background-color: var(---blue);
 }
 /*sign up form*/
 #sign-up {
@@ -208,7 +208,7 @@ footer {
   margin-top: 89px;
   padding: 10px 20px;
   text-align: center;
-  background-color: var(--light-blue);
+  background-color: var(---blue);
 }
 footer > h3,
 footer > p {
