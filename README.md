@@ -8,7 +8,7 @@ An online library of meditation and yoga classes that focus on stress and anxiet
 
 Goal of this website: give information about an application that helps people be more wholesome.
 
-Users need: more available online platforms that help to relax and relieve everyday stress.
+s need: more available online platforms that help to relax and relieve everyday stress.
 
 Importance: to be able to live healthy and fulfilled lives with healthy minds.
 
@@ -26,15 +26,15 @@ I. Logo & menu - on the top - for easy navigation.
 
 II. The name and short description of what the page is about.
 
-III. Giving reasons for using the website - users concider why they need the app, and what can it help with.
+III. Giving reasons for using the website - s concider why they need the app, and what can it help with.
 
 IV. Specifying why to choose this app over others, and what are the advantages.
 
-V. Sign up form, where the users can register to be a member.
+V. Sign up form, where the s can register to be a member.
 
-VI. Contact details - for the users who have questions and social media links to find out more information about the business.
+VI. Contact details - for the s who have questions and social media links to find out more information about the business.
 
-Shortly: The users see what the website is about, then think about if they need it, see the advantages, why this website is a good option over other platforms, get the option to sign up and try it out, and then also the option to read more or get in contact.
+Shortly: The s see what the website is about, then think about if they need it, see the advantages, why this website is a good option over other platforms, get the option to sign up and try it out, and then also the option to read more or get in contact.
 
 ## My work Process
 
@@ -47,9 +47,21 @@ Shortly: The users see what the website is about, then think about if they need 
 - Considering ux principles planning the main sections with text.
 - Writing text first in a text document - to check the text for correct spelling, grammar and semantics.
 - Writing the HTML document with background color, to see if the structure is fine and also it is easier to visualize the design how big space the paragraphs take.
+
+Starting to write HTML:
+![HTML text with background colors](<html texrt with colorful background.png>)
+
 - Design layout on wireframe
 
   The bigger the screen the more columns can have.
+
+  Wireframe for mobile:
+  ![Wireframe mobile](<wireframe mobile-2.png>)
+  Wireframe for tablet:
+  ![Wireframe tablet](<wireframe tablet-1.png>)
+  Wireframe for desktop:
+  ![Wireframe desktop](<wireframe desktop-1.png>)
+  For bigger screens I changed the layout during coding, so it looks and functions better.
 
 - Completing HTML text with links, form details, sign up button, icons and classes to be able to apply the layout and design.
 
@@ -57,11 +69,14 @@ Shortly: The users see what the website is about, then think about if they need 
 
 - Finding background images, color palette and font family that fits to the project.
 
-  Photo: related to the topic, so when the users look at it, they instantly know what the page is about.
+  Image: related to the topic, so when the s look at it, they instantly know what the page is about.
 
   Color palette: I chose calming colors from the main photo with a color picker.
 
-  Font family: I chose two types, one is pretty for the titles and logos, the other is simple and easy to read.
+Choosing the main color with color picker:
+
+![chosing the main color with color picker](<color picker.png>)
+Font family: I chose two types, one is pretty for the titles and logos, the other is simple and easy to read.
 
 ### Second part: CSS
 
@@ -83,7 +98,7 @@ I was working on sections one by one, making them also responsive:
 - Lighthouse check - laptop 100%, mobile 75% - compressed image one more time.
 - Optimizing font-size as a general CSS rule.
 
-  If the users use the menu instead of scrolling, they should be able to see the Sign up section in one piece.
+  If the s use the menu instead of scrolling, they should be able to see the Sign up section in one piece.
 
 ## Workflow
 
@@ -140,9 +155,32 @@ Tried on mobile, tablet, laptop and desktop screen view.
 | Correct CSS file                                                                  | Copy the code to W3C CSS validator website.                                                                    | There are no errors                                                                                | There are no errors.                                                                                                                          |
 | Correct HTML file                                                                 | Copy the code to The W3C HTML validator website.                                                               | There are no errors                                                                                | There are no errors. It only mentions that the slash is not necessary for self-closing tags. Prettier corrects the code and put the slash in. |
 
+Checking email input:
+![Input email ](<input email check.png>)
+Checking submit button:
+![Code institute formdump](<checking submit button.png>)
+Checking twitter icon:
+![Twitter icon gets gold color hovering](<twitter icon.png>)
+Am I responsive?
+![am i responsive image](<Am i responsive.png>)
+
 Lighthouse check for desktop devices:
 
--
+Desktop:
+
+- Performance: 98%
+- Accessibility: 100%
+- Best Practices: 100%
+- SEO: 100%
+  ![Lighthouse desktop](<lighthouse mobile-3.png>)
+
+Mobile:
+
+- Performance: 96%
+- Accessibility: 100%
+- Best Practices: 100%
+- SEO: 100%
+  ![Lighthouse mobile](<lighthouse mobile-2.png>)
 
 ## Credits
 
@@ -158,6 +196,7 @@ Planning:
 Font family:
 
 - [Google fonts](https://fonts.google.com/)
+- Inspired by my own [Bob Ross project](https://bob-ross-fan-page-by-sarolta-h.netlify.app/)
 
 Images and icons:
 
@@ -172,14 +211,10 @@ Color palette:
 
 - [Chrome color picker](https://chrome.google.com/webstore/detail/color-picker-for-chrome/clldacgmdnnanihiibdgemajcfkmfhia)
 
-Font families:
-
-- Inspired by my own [Bob Ross project](https://bob-ross-fan-page-by-sarolta-h.netlify.app/)
-
 Validating:
 
 - [Am I responsive?](https://ui.dev/amiresponsive)
 - [W3C CSS validator](https://jigsaw.w3.org/css-validator/)
 - [W3C HTML validator](https://validator.w3.org/)
 
-Special thanks to [Code Institue](https://codeinstitute.net/se/full-stack-software-development-diploma/?utm_term=code%20institute&utm_campaign=CI+-+SWE+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=14660337051&hsa_grp=134087657984&hsa_ad=635849372549&hsa_src=g&hsa_tgt=aud-594467886660:kwd-319867646331&hsa_kw=code%20institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad=1&gclid=CjwKCAjw4P6oBhBsEiwAKYVkqzzIpIRAmKF-tC7OHL0D0ijr9ic8Bv2gLino_uOt3SWXrRzbR7NoNhoCisIQAvD_BwE) and my mentor Ronan McClelland for reviewing, helping and answering all my questions.
+Special thanks to [Code Institute](https://codeinstitute.net/se/full-stack-software-development-diploma/?utm_term=code%20institute&utm_campaign=CI+-+SWE+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=14660337051&hsa_grp=134087657984&hsa_ad=635849372549&hsa_src=g&hsa_tgt=aud-594467886660:kwd-319867646331&hsa_kw=code%20institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad=1&gclid=CjwKCAjw4P6oBhBsEiwAKYVkqzzIpIRAmKF-tC7OHL0D0ijr9ic8Bv2gLino_uOt3SWXrRzbR7NoNhoCisIQAvD_BwE) and my mentor Ronan McClelland for reviewing, helping and answering all my questions.
