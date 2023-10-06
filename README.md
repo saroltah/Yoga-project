@@ -51,22 +51,26 @@ _Shortly:_ The users see what the website is about, then think about if they nee
 - Writing the HTML document with background color, to see if the structure is fine and also it is easier to visualize the design how big space the paragraphs take.
 
 _Starting to write HTML:_
+
 ![HTML text with background colors](<html texrt with colorful background.png>)
 
 - Design layout on wireframe
 
   The bigger the screen the more columns can have.
 
-  _Wireframe for mobile:_
-  ![Wireframe mobile](<wireframe mobile-2.png>)
+_Wireframe for mobile:_
 
-  _Wireframe for tablet:_
-  ![Wireframe tablet](<wireframe tablet-1.png>)
+![Wireframe mobile](<wireframe mobile-2.png>)
 
-  _Wireframe for desktop:_
-  ![Wireframe desktop](<wireframe desktop-1.png>)
+_Wireframe for tablet:_
 
-  For bigger screens I changed the layout during coding, so it looks and functions better.
+![Wireframe tablet](<wireframe tablet-1.png>)
+
+_Wireframe for desktop:_
+
+![Wireframe desktop](<wireframe desktop-1.png>)
+
+For bigger screens I changed the layout during coding, so it looks and functions better.
 
 - Completing HTML text with links, form details, sign up button, icons and classes to be able to apply the layout and design.
 
@@ -168,15 +172,19 @@ Tried on mobile, tablet, laptop and desktop screen view.
 | Correct HTML file                                                                 | Copy the code to The _W3C HTML validator_ website.                                                                | There are no errors                                                                                | There are no errors. It only mentions that the slash is not necessary for self-closing tags. Prettier corrects the code and put the slash in. |
 
 _Checking email input:_
+
 ![input email](<input email check.png>)
 
 _Checking submit button and form details:_
+
 ![Code institute formdump](<checking submit button.png>)
 
 _Checking twitter icon:_
+
 ![Twitter icon gets gold color hovering](<twitter icon.png>)
 
 _Am I responsive?_
+
 ![am i responsive image](<Am i responsive.png>)
 
 **Lighthouse check for desktop devices:**
@@ -188,7 +196,7 @@ _Am I responsive?_
 - Best Practices: 100%
 - SEO: 100%
 
-  ![Lighthouse desktop](<lighthouse desktop-1.png>)
+![Lighthouse desktop](<lighthouse desktop-1.png>)
 
 **Mobile:**
 
@@ -196,14 +204,15 @@ _Am I responsive?_
 - Accessibility: 100%
 - Best Practices: 100%
 - SEO: 100%
-  ![Lighthouse mobile](<lighthouse mobile-2.png>)
+
+![Lighthouse mobile](<lighthouse mobile-2.png>)
 
 ## Credits
 
 _Programs:_
 
-- VS Code
-- Github
+- [VS Code](https://code.visualstudio.com/)
+- [Github](https://github.com/)
 
 _Planning:_
 
