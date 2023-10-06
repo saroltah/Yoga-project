@@ -172,9 +172,8 @@ Desktop:
 - Accessibility: 100%
 - Best Practices: 100%
 - SEO: 100%
-  ![Lighthouse desktop](<lighthouse mobile-3.png>)
-
-Mobile:
+  ![Lighthouse desktop](<lighthouse desktop-1.png>)
+  Mobile:
 
 - Performance: 96%
 - Accessibility: 100%
