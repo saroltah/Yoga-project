@@ -22,7 +22,7 @@ _Specific stand-out:_
 
 **How they can get access to the information:** short paragraphs, only relevant information, with a menu that helps them to find what they are looking for.
 
-## Build-up
+## Structure
 
 I. Logo & menu - on the top - for easy navigation.
 
@@ -36,7 +36,7 @@ V. Sign up form, where the users can register to be a member.
 
 VI. Contact details - for the users who have questions and social media links to find out more information about the business.
 
-_Shortly:_ The users see what the website is about, then think about if they need it, see the advantages, why this website is a good option over other platforms, get the option to sign up and try it out, and then also the option to read more or get in contact.
+_Summary:_ The users see what the website is about, then think about if they need it, see the advantages, why this website is a good option over other platforms, get the option to sign up and try it out, and then also the option to read more or get in contact.
 
 ## My work Process
 
@@ -118,6 +118,37 @@ I was working on sections one by one, making them also responsive:
 - Using keyboard shortcuts and Emmet for the faster process.
 - Continuously checking and trying out things in developer tools.
 - Commiting and pushing all changes.
+
+## Technology
+
+_Programs:_
+
+- [VS Code](https://code.visualstudio.com/)
+- [Github](https://github.com/)
+
+_Planning:_
+
+- [Balsamiq wireframes](https://balsamiq.com/wireframes/desktop/)
+
+_Font family:_
+
+- [Google fonts](https://fonts.google.com/)
+
+_Images and icons:_
+
+- [Compress JPG](https://compressjpeg.com/)
+- [Tiny PNG](https://tinypng.com/)
+- [Convert io](https://convertio.co/jpg-webp/)
+
+_Color palette:_
+
+- [Chrome color picker](https://chrome.google.com/webstore/detail/color-picker-for-chrome/clldacgmdnnanihiibdgemajcfkmfhia)
+
+_Validating:_
+
+- [Am I responsive?](https://ui.dev/amiresponsive)
+- [W3C CSS validator](https://jigsaw.w3.org/css-validator/)
+- [W3C HTML validator](https://validator.w3.org/)
 
 ## Bugs and solutions
 
@@ -209,37 +240,15 @@ _Am I responsive?_
 
 ## Credits
 
-_Programs:_
-
-- [VS Code](https://code.visualstudio.com/)
-- [Github](https://github.com/)
-
-_Planning:_
-
-- [Balsamiq wireframes](https://balsamiq.com/wireframes/desktop/)
-
 _Font family:_
 
-- [Google fonts](https://fonts.google.com/)
 - Inspired by my own [Bob Ross project](https://bob-ross-fan-page-by-sarolta-h.netlify.app/)
 
 _Images and icons:_
 
-- [Font awesome](https://fontawesome.com/)
-- [Unspalsh](https://unsplash.com/)
-- [Pexels](https://www.pexels.com/sv-se/)
-- [Compress JPG](https://compressjpeg.com/)
-- [Tiny PNG](https://tinypng.com/)
-- [Convert io](https://convertio.co/jpg-webp/)
+- Font awesome icons: [Spa](https://fontawesome.com/icons/spa?f=classic&s=solid), [Facebook](https://fontawesome.com/icons/facebook?f=brands&s=solid), [Instagram](https://fontawesome.com/icons/instagram?f=brands&s=solid), [Twitter](https://fontawesome.com/icons/twitter?f=brands&s=solid), [Envelope](https://fontawesome.com/icons/envelope?f=classic&s=solid)
 
-_Color palette:_
-
-- [Chrome color picker](https://chrome.google.com/webstore/detail/color-picker-for-chrome/clldacgmdnnanihiibdgemajcfkmfhia)
-
-_Validating:_
-
-- [Am I responsive?](https://ui.dev/amiresponsive)
-- [W3C CSS validator](https://jigsaw.w3.org/css-validator/)
-- [W3C HTML validator](https://validator.w3.org/)
+- [Unspalsh Image by Akemi Mory](https://unsplash.com/photos/LaKVSiT4rR8)
+- [Pexels Image by Karolina Grabowska](https://www.pexels.com/photo/flexible-sportswoman-doing-yoga-exercise-at-home-4498158/)
 
 Special thanks to [Code Institute](https://codeinstitute.net/se/full-stack-software-development-diploma/?utm_term=code%20institute&utm_campaign=CI+-+SWE+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=14660337051&hsa_grp=134087657984&hsa_ad=635849372549&hsa_src=g&hsa_tgt=aud-594467886660:kwd-319867646331&hsa_kw=code%20institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad=1&gclid=CjwKCAjw4P6oBhBsEiwAKYVkqzzIpIRAmKF-tC7OHL0D0ijr9ic8Bv2gLino_uOt3SWXrRzbR7NoNhoCisIQAvD_BwE) and my mentor **Ronan McClelland** for reviewing, helping and answering all my questions.
