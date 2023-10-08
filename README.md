@@ -183,7 +183,20 @@ _Validating:_
 7. Go back to _Code_ in the project's menu on the top
 8. On the right side in _Deployments_ section click on _Github-pages_
 9. On the left side under _Deployments_ click on _Enviroments_
-10. Under _Active deployments_ and _Github-pages_ I can click on the project's deployed link and open it.
+10. Under _Active deployments_ and _Github-pages_ I can click on the project's deployed link and open it
+
+### Run the project locally
+
+1. Open the Github repository
+   https://github.com/saroltah/yoga-project
+
+2. Select the green _Code_ dropdown, under _Clone_ copy the HTTPS link
+
+3. Open your IDE, and your chosen directory in it
+
+4. Open your terminal and type _git clone_ and paste the link
+
+5. Now the clone is ready to be used.
 
 ## Testing
 
