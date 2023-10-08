@@ -218,6 +218,14 @@ _Am I responsive?_
 
 ![am i responsive image](<Am i responsive.png>)
 
+_HTML validator:_
+
+![HTML validator result](<html validator.png>)
+
+_CSS validator:_
+
+![CSS validator result](<css validator.png>)
+
 **Lighthouse check for desktop devices:**
 
 **Desktop:**
