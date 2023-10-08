@@ -52,7 +52,7 @@ _Summary:_ The users see what the website is about, then think about if they nee
 
 _Starting to write HTML:_
 
-![HTML text with background colors](<html texrt with colorful background.png>)
+![HTML text with background colors](</assets/images/readme-images/html text with colorful background.png>)
 
 - Design layout on wireframe
 
@@ -60,15 +60,15 @@ _Starting to write HTML:_
 
 _Wireframe for mobile:_
 
-![Wireframe mobile](<wireframe mobile-2.png>)
+![Wireframe mobile](</assets/images/readme-images/wireframe mobile-2.png>)
 
 _Wireframe for tablet:_
 
-![Wireframe tablet](<wireframe tablet-1.png>)
+![Wireframe tablet](</assets/images/readme-images/wireframe tablet-1.png>)
 
 _Wireframe for desktop:_
 
-![Wireframe desktop](<wireframe desktop-1.png>)
+![Wireframe desktop](</assets/images/readme-images/wireframe desktop-1.png>)
 
 For bigger screens I changed the layout during coding, so it looks and functions better.
 
@@ -84,7 +84,7 @@ For bigger screens I changed the layout during coding, so it looks and functions
 
 _Choosing the main color with color picker:_
 
-![chosing the main color with color picker](<color picker.png>)
+![chosing the main color with color picker](</assets/images/readme-images/color picker.png>)
 
 **Font family:** I chose two types, one is pretty for the titles and logos, the other is simple and easy to read.
 
@@ -217,27 +217,27 @@ Tried on mobile, tablet, laptop and desktop screen view.
 
 _Checking email input:_
 
-![input email](<input email check.png>)
+![input email](</assets/images/readme-images/input email check.png>)
 
 _Checking submit button and form details:_
 
-![Code institute formdump](<checking submit button.png>)
+![Code institute formdump](</assets/images/readme-images/checking submit button.png>)
 
 _Checking twitter icon:_
 
-![Twitter icon gets gold color hovering](<twitter icon.png>)
+![Twitter icon gets gold color hovering](</assets/images/readme-images/twitter icon.png>)
 
 _Am I responsive?_
 
-![am i responsive image](<Am i responsive.png>)
+![am i responsive image](</assets/images/readme-images/Am i responsive.png>)
 
 _HTML validator:_
 
-![HTML validator result](<html validator.png>)
+![HTML validator result](</assets/images/readme-images/html validator.png>)
 
 _CSS validator:_
 
-![CSS validator result](<css validator.png>)
+![CSS validator result](</assets/images/readme-images/css validator.png>)
 
 **Lighthouse check for desktop devices:**
 
@@ -248,7 +248,7 @@ _CSS validator:_
 - Best Practices: 100%
 - SEO: 100%
 
-![Lighthouse desktop](<lighthouse desktop-1.png>)
+![Lighthouse desktop](</assets/images/readme-images/lighthouse desktop-1.png>)
 
 **Mobile:**
 
@@ -257,7 +257,7 @@ _CSS validator:_
 - Best Practices: 100%
 - SEO: 100%
 
-![Lighthouse mobile](<lighthouse mobile-2.png>)
+![Lighthouse mobile](</assets/images/readme-images/lighthouse mobile-2.png>)
 
 ## Credits
 
