@@ -172,6 +172,19 @@ _Validating:_
 
     -> Changed it in the end.
 
+## Deployment
+
+1. Log in to my GitHub account
+2. Go to _Your repositories_ in my menu, and select _Yoga-project_
+3. Choose _Settings_ from the project's menu
+4. On the left side under _Code and automation_ select _Pages_
+5. Under _Source_ select _Deploy from a branch_
+6. Under _Branch_ select _Main_, _/(root)_ and click on _Save_
+7. Go back to _Code_ in the project's menu on the top
+8. On the right side in _Deployments_ section click on _Github-pages_
+9. On the left side under _Deployments_ click on _Enviroments_
+10. Under _Active deployments_ and _Github-pages_ I can click on the project's deployed link and open it.
+
 ## Testing
 
 Tried on mobile, tablet, laptop and desktop screen view.
